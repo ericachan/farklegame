@@ -1,2 +1,2 @@
 # Farkle Game
-A Farkle game created for a Mobile Device Programming course.
+A dice game created for a Mobile Device Programming course. We used only HTML, CSS, Javascript, and PhoneGap Build.
