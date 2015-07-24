@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+<title>Farkle</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <h1>Farkle!</h1>
+    <div id="diceContainer">
+        <p id="message"></p>
+        <img id="die1" src="images/1.png" />
+        <img id="die2" src="images/2.png" />
+        <img id="die3" src="images/3.png" />
+        <img id="die4" src="images/4.png" />
+        <img id="die5" src="images/5.png" />
+        <img id="die6" src="images/6.png" />
+    </div>
+    <p> </p>
+    <div id="buttonContainer">
+        <input value="Roll Dice" title="Roll Dice" type="submit" id="rollDice">
+        <input value="End Your Turn" title="End Your Turn" type="submit" id="endYourTurn">
+    </div>
+    <div id="instructions"></div>
+    <h2>Score</h2>
+    <div id="score">0</div>
+    <p></p>
+    <div id="player1">
+        <div><h2>Player 1</h2></div>
+        <div id="playerOneScore">0</div>
+        
+    </div>
+    <div id="player2">
+        <div><h2>Player 2</h2></div>
+        <div id="playerTwoScore">0</div>
+    </div>
+</body>
+
+<script src="js/farkle.js"></script>
+
+<!--
+<img src="images/1.png" name="mydice">
+<form>
+<input type="button" value="Roll dice!" onClick="rollDice()">
+</form> -->
+
+</html>
